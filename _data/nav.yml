@@ -1,8 +1,8 @@
 - name: Home
   path: index.html
   section_id: home
-- name: About
-  path: about.html
+- name: A propos
+  path: a-propos.html
   section_id: about
 - name: Services
   path: services.html
