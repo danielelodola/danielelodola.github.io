@@ -10,3 +10,9 @@ title2: This is the home page
 <h3>Title 3</h3>
 
 {% include text_block.html %}
+
+<!-- Début de widget de badge Calendly -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+<script type="text/javascript">Calendly.initBadgeWidget({url: 'https://calendly.com/lodola/prise-de-contact-15-minutes', text: 'Planifier du temps avec moi', color: '#00a2ff', branding: false});</script>
+<!-- Fin de widget de badge Calendly -->
