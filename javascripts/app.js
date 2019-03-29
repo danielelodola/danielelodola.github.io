@@ -74,7 +74,7 @@ jQuery(document).foundation();
       submitHandler: function(form) {
         $.ajax({
           type: 'POST',
-          url: 'send.php',
+          url: 'https://hooks.zapier.com/hooks/catch/4682710/n7nqao/',
           data: $(form).serialize(),
           success: function(data) {
             if(data.match(/success/)) {
