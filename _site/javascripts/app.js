@@ -77,10 +77,8 @@ jQuery(document).foundation();
           url: 'https://hooks.zapier.com/hooks/catch/4682710/n7nqao/',
           data: $(form).serialize(),
           success: function(data) {
-            if(data.match(/success/)) {
-              $(form).trigger('reset');
-              $('#thanks').show().fadeOut(5000);
-            }
+            $(form).trigger('reset');
+            $('#thanks').css('display', 'inline-block');
           }
         });
         return false;

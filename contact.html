@@ -9,17 +9,17 @@ section_id: contact
       <div class='form'>
         <div class='row'>
           <form id='contact_form' method='POST'>
-            <div class='large-12 columns'>
-              <p id='thanks' style='display: none;'>
-                Merci pour votre message! Je reviendrai vers vous très rapidement.
-              </p>
-            </div>
             <div class='medium-12 columns'>
               <input class='required' name='name' placeholder='Comment vous appelez-vous?' type='text'>
               <input class='required email' name='email' placeholder='Sur quel mail puis-je vous écrire?' type='text'>
               <input class='' name='phone' placeholder='Et à quel numéro êtes-vous joignable?' type='text'>
               <textarea class='required' name='message' placeholder='Et maintenant, enfin, votre message!'></textarea>
               <input class='button white' type='submit' value='Envoyer'>
+            </div>
+            <div class='large-12 columns'>
+              <p id='thanks' style='display:none;color:green;font-weight:bold;'>
+                Merci pour votre message! Je reviendrai vers vous très rapidement.
+              </p>
             </div>
           </form>
         </div>

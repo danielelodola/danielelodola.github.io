@@ -6,13 +6,14 @@ description: > # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog/
-# url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: dlodola
+url: "https://www.danielelodola.com" # the base hostname & protocol for your site
+facebook_username: daniele.lodola
 github_username:  danielelodola
+linkedin_username: lodola
+twitter_username: dlodola
 
 # Build settings
 markdown: kramdown
-
 
 paginate: 4
 paginate_path: "blog/page:num"
