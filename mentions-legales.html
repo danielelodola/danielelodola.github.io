@@ -1,0 +1,56 @@
+---
+layout: default
+section_id: legal
+
+photos:
+  - title: Fleur bleue
+    author: Miguel Mateo
+    source: Unsplash
+    url: https://unsplash.com/photos/1mVukH3m3Mw
+  - title: Fleur rouge
+    author: Ameen Fahmy
+    source: Unsplash
+    url: https://unsplash.com/photos/JuesIryw53E
+  - title: Fleur blanche
+    author: Vladimir Malyutin
+    source: Unsplash
+    url: https://unsplash.com/photos/6A_hN1SFjRI
+  - title: Texture acier
+    author: rawpixel.com
+    source: Pexels
+    url: https://www.pexels.com/photo/black-and-white-gray-grey-smooth-1050305/
+---
+
+<div class='full'>
+  <div class='row'>
+    <div class='medium-8 columns'>
+      <h4 style='color: #999'>Tout ce qu'il faut savoir sur ce site</h4>
+      <h2>Mentions l&eacute;gales</h2>
+      <div class='spacing'></div>
+      <h5>&Eacute;diteur du site</h5>
+      <p>Daniele Lodola, 1B rue Joffre, 84000 Avignon<br />hello@danielelodola.com<br />SIRET: 83258035100019<br />TVA: FR86832580351</p>
+      <h5>Directeur de la publication</h5>
+      <p>Daniele Lodola</p>
+      <h5>H&eacute;bergeur du site</h5>
+      <p>Github Pages<br />GitHub, Inc., 88 Colin P. Kelly Street, San Francisco, CA 94107, USA<br />T&eacute;l&eacute;phone: +1 (877) 448-4820</p>
+      <h5>Cookies</h5>
+      <p>A compléter</p>
+      <!-- RGPD-->
+      <h5>Droit &agrave; l'image</h5>
+      <p>
+      {% for photo in page.photos %}
+        {{photo.title}} - <a href='{{photo.url}}' target='_blank'>{{photo.author}}</a> ({{photo.source}})<br />
+      {% endfor %}
+      </p>
+      <div class='two spacing'></div>
+    </div>
+    <div class='medium-4 columns'>
+      <div class='contact-details'>
+        <h4>Localisation:</h4>
+        <p>Avignon, France</p>
+        <a class='button round success' href='/contact.html'>Contactez-moi</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class='four spacing'></div>

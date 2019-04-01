@@ -15,7 +15,7 @@
 - name: A propos
   path: a-propos.html
   section_id: about
-- name: Contact
+- name: Contactez-moi
   path: contact.html
   section_id: contact
 #- name: Blog
