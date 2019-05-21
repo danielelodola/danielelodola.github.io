@@ -43,4 +43,18 @@
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Daniele Lodola",
+    "url": "https://www.danielelodola.com",
+    "sameAs": [
+      "https://www.facebook.com/{{site.facebook_username}}",
+      "https://www.linkedin.com/in/{{site.linkedin_username}}",
+    ]
+  }
+  </script>
+
 </head>
