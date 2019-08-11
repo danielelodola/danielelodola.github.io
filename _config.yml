@@ -14,9 +14,9 @@ twitter_username: dlodola
 # Build settings
 markdown: kramdown
 
-paginate: 4
-paginate_path: "blog/page:num"
+#paginate: 4
+#paginate_path: "blog/page:num"
 
 plugins:
   - jekyll-sitemap
-  - jekyll-paginate
+#  - jekyll-paginate
