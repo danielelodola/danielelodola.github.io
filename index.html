@@ -89,17 +89,6 @@ boxes:
 #    to: 21
 #    title: Articles Published
 
-testimonials:
-  - text: "Daniele a travaillé sur Pipedrive, notre CRM. Sa grande expertise sur le sujet fut un réel atout pour nous. Il a pu interconnecter nos différentes applications avec une efficacité incroyable! Merci Dan."
-    author: Fran&ccedil;ois Amad&eacute;i
-    position: Fondateur et Directeur Général, Scoplan
-  - text: "Daniele a implémenté et déployé Netsuite avec succès dans notre contexte des sciences de la vie. Grâce à cela, nous avons pu améliorer la compréhension des besoins de nos clients et <i>in fine</i> nos relations client."
-    author: Berthold Baldus
-    position: PDG Cisbio
-  - text: "Daniele était un membre clef de notre équipe Relations Publiques à un moment clef de l'histoire de Jaguar. "
-    author: Vittorio Senso
-    position: Directeur Général, Jaguar Cars France
-
 clients:
   - images/@stock/client_scoplan.png
   - images/@stock/client_monchasseurimmo.png
@@ -301,10 +290,10 @@ clients:
         <div class='row'>
           <div class='small-12 columns'>
             <div class='items centered-text'>
-              {% for t in page.testimonials  %}
+              {% for t in site.data.testimonials  %}
                 <div class='item'>
                   <p class='quote'>{{t.text}}</p>
-                  <p class='author'>- {{t.author}}, {{t.position}}</p>
+                  <p class='author'><strong>{{t.author}}</strong>, {{t.position}}</p>
                   <div class='two spacing'></div>
                 </div>
               {% endfor %}

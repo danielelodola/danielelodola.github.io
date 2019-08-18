@@ -12,20 +12,6 @@ skills:
     percent: 75
   - title: Analytics /BI
     percent: 66
-    
-testimonials:
-  - text: "Daniele a travaillé sur Pipedrive, notre CRM. Sa grande expertise sur le sujet fut un réel atout pour nous. Il a pu interconnecter nos différentes applications avec une efficacité incroyable! Merci Dan."
-    author: Fran&ccedil;ois Amad&eacute;i
-    position: Fondateur et Directeur Général, Scoplan
-    avatar: images/@stock/author-avatar-1.png
-  - text: "Daniele a implémenté et déployé Netsuite avec succès dans notre contexte des sciences de la vie. Grâce à cela, nous avons pu améliorer la compréhension des besoins de nos clients et <i>in fine</i> nos relations client."
-    author: Berthold Baldus
-    position: PDG Cisbio
-    avatar: images/@stock/author-avatar-2.png
-  - text: "Daniele était un membre clef de notre équipe Relations Publiques à un moment clef de l'histoire de Jaguar. "
-    author: Vittorio Senso
-    position: Directeur Général, Jaguar Cars France
-    avatar: images/Vittorio-Senso_80x80.png
 ---
 
 
@@ -103,7 +89,7 @@ testimonials:
         <div class='row'>
           <div class='small-12 columns'>
             <div class='items'>
-              {% for t in page.testimonials %}
+              {% for t in site.data.testimonials %}
                 <div class='item'>
                   <p class='quote'>{{t.text}}</p>
                   <div class='author'>
