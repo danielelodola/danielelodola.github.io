@@ -19,4 +19,4 @@ markdown: kramdown
 
 plugins:
   - jekyll-sitemap
-#  - jekyll-paginate
+  - jekyll-paginate
