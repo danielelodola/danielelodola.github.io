@@ -20,3 +20,5 @@ markdown: kramdown
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
+
+exclude: [doc, blog]
