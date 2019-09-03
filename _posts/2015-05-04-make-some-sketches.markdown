@@ -13,4 +13,5 @@ images:
   - images/@stock/blog-3.jpg
 excerpt:
   Qui eaque voluptatem sunt dicta vel aut. aut aut molestiae distinctio. laborum iure molestiae aut aut incidunt aliquid qui ea nemo consequatur animi delectus perspiciatis quas. porro consequatur rerum quis commodi et ipsum error quia aspernatur. nisi incidunt dolores tenetur ut mollitia quia ipsam aut. sit ut eius ut quae mollitia dolorum praesentium labore deleniti similique alias tempora quod. a ratione velit ut repudiandae dolor eaque dignissimos nobis
+sitemap: false
 ---
