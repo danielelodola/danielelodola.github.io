@@ -21,8 +21,5 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
 
+# Exclude the following folders from the build
 exclude: [doc, blog, _posts]
-
-collections:
-  posts:
-    output: true
