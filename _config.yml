@@ -21,4 +21,8 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
 
-exclude: [doc, blog]
+exclude: [doc, blog, _posts]
+
+collections:
+  posts:
+    output: true
