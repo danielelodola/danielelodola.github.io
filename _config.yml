@@ -14,6 +14,8 @@ twitter_username: dlodola
 # Build settings
 markdown: kramdown
 
+permalink: pretty
+
 #paginate: 4
 #paginate_path: "blog/page:num"
 

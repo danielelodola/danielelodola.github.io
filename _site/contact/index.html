@@ -50,8 +50,8 @@
   <script defer src="/javascripts/imagesloaded.pkgd.min.js" type="text/javascript"></script>
   <script defer src="/javascripts/slick.min.js" type="text/javascript"></script>
 
-  <!--<link rel="canonical" href="http://localhost:4000/clients/chopard.html">-->
-  <link rel="canonical" href="http://localhost:4000/clients/chopard.html" />
+  <!--<link rel="canonical" href="http://localhost:4000/contact/">-->
+  <link rel="canonical" href="http://localhost:4000/contact/" />
   
   <!--<link rel="alternate" type="application/rss+xml" title="Daniele Lodola | Conseil en stratégie marketing digitale dans le Vaucluse" href="http://localhost:4000/feed.xml" />-->
 
@@ -90,7 +90,7 @@
     <ul class='title-area'>
       <li class='name'>
         <h1>
-          <a href="http://localhost:4000/index">
+          <a href="http://localhost:4000/">
             <img alt="" src="/images/logo-bordered.png" />
           </a>
         </h1>
@@ -106,7 +106,7 @@
 
           
             <li class="">
-              <a href="http://localhost:4000/index">Accueil</a>
+              <a href="http://localhost:4000/">Accueil</a>
             </li>
           
         
@@ -129,7 +129,7 @@
           
 
           
-            <li class="">
+            <li class="active">
               <a href="http://localhost:4000/contact">Contactez-moi</a>
             </li>
           
@@ -142,57 +142,63 @@
     <div id='main' role='main'>
       <div class='full'>
   <div class='row'>
-    <div class='large-8 columns'>
-      <div class='mod modBoxedSlider'>
-        <div class='slides'>
-          
-            <div class="slide">
-              <img src="http://localhost:4000/images/@stock/medium-work-1.jpg" alt="">
+    <div class='medium-8 columns'>
+      <div class='form'>
+        <div class='row'>
+          <form id='contact_form' method='POST'>
+            <div class='medium-12 columns'>
+              <input class='required' name='name' placeholder='Comment vous appelez-vous?' type='text'>
+              <input class='required email' name='email' placeholder='Sur quel mail puis-je vous écrire?' type='text'>
+              <input class='' name='phone' placeholder='Et à quel numéro êtes-vous joignable?' type='text'>
+              <textarea class='required' name='message' placeholder='Et maintenant, enfin, votre message!'></textarea>
+              <input class='button white' type='submit' value='Envoyer'>
             </div>
-          
-            <div class="slide">
-              <img src="http://localhost:4000/images/@stock/medium-work-2.jpg" alt="">
+            <div class='large-12 columns'>
+              <p id='thanks' style='display:none;color:green;font-weight:bold;'>
+                Merci pour votre message! Je reviendrai vers vous très rapidement.
+              </p>
             </div>
-          
+          </form>
         </div>
       </div>
+      <div class='two spacing'></div>
     </div>
-    <div class='large-4 columns'>
-      <h3>Project title</h3>
-      <p>
-        Dolores quibusdam eum itaque est et iusto perspiciatis saepe consequuntur quia occaecati consequatur. dignissimos dolores omnis voluptatum quia totam minus architecto qui assumenda ex aut aut. voluptatem et ex qui iure illum. est rerum eum est corrupti fugiat quas repellendus officia ratione tempore aliquid aspernatur itaque enim. officia dignissimos enim veniam corporis nemo ipsam sit omnis dolorum veniam.
-      </p>
-      <ul class='info'>
+    <div class='medium-4 columns'>
+      <div class='contact-details'>
+        <h4>Localisation</h4>
+        <p>Avignon, France</p>
+        <h4>Email</h4>
+        <p>hello@danielelodola.com</p>
+        
+        <h4>Sur les réseaux sociaux</h4>
+        <ul class='socials'>
         <li>
-          <strong>Client:</strong>
-          themeforest
+          <a href='https://www.linkedin.com/in/lodola/?locale=fr_FR' target='_blank' rel='noreferrer'>
+            <i class='fa fa-linkedin'></i>&nbsp; LinkedIn
+          </a>
         </li>
         <li>
-          <strong>Date:</strong>
-          June 2013
+          <a href='https://www.facebook.com/DanieleLodolaConsulting' target='_blank' rel='noreferrer'>
+            <i class='fa fa-facebook'></i>
+          </a>
+        </li>
+        <li>
+          <a href='https://twitter.com/dlodola' target='_blank' rel='noreferrer'>
+            <i class='fa fa-twitter'></i>
+          </a>
+        </li>
+
+        <li>
+          <a href='https://github.com/danielelodola/' target='_blank' rel='noreferrer'>
+            <i class='fa fa-github'></i>
+          </a>
         </li>
       </ul>
-      <div class='spacing'></div>
-      <a class='button small' href=''>Visit website</a>
-      <div class='spacing'></div>
-      <ul class='info'>
-        <li>
-          <div class='spacing'></div>
-          <a href='' title='previous'>
-            <i class='icon-left-open'></i>
-          </a>
-          <a href='portfolio.html' title='back to work list'>
-            <i class='icon-layout'></i>
-          </a>
-          <a href='' title='next'>
-            <i class='icon-right-open'></i>
-          </a>
-        </li>
-      </ul>
+      </div>
     </div>
   </div>
-  <div class='four spacing'></div>
 </div>
+<div class='four spacing'></div>
 
     </div>
 
@@ -206,7 +212,7 @@
         </a>
       </h1>
       <div class='links'>
-      <p>©2019 Daniele Lodola<br />Tous droits réservés<br /><a href="mentions-legales.html">Mentions l&eacute;gales</a></p>
+      <p>©2019 Daniele Lodola<br />Tous droits réservés<br /><a href="/mentions-legales">Mentions l&eacute;gales</a></p>
       </div>
       <div class='spacing'></div>
       <div class='spacing'></div>
@@ -216,11 +222,11 @@
       <div class='links'>
         <h4>Daniele Lodola</h4>
         <ul>
-          <li><a href="index.html">Accueil</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="a-propos.html">&Agrave; propos</a></li>
-          <!--<li><a href="blog.html">Blog</a></li>-->
-          <li><a href="contact.html">Contactez-moi</a></li>
+          <li><a href="/">Accueil</a></li>
+          <li><a href="/services">Services</a></li>
+          <li><a href="/a-propos">&Agrave; propos</a></li>
+          <!--<li><a href="/blog">Blog</a></li>-->
+          <li><a href="/contact">Contactez-moi</a></li>
         </ul>
       </div>
       <div class='spacing'></div>

@@ -1,5 +1,5 @@
 - name: Accueil
-  path: index
+  path: 
   section_id: home
 - name: Services
   path: services
