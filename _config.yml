@@ -14,14 +14,15 @@ twitter_username: dlodola
 # Build settings
 markdown: kramdown
 
-permalink: pretty
+#permalink: pretty
 
 #paginate: 4
 #paginate_path: "blog/page:num"
 
 plugins:
   - jekyll-sitemap
-  - jekyll-paginate
+#  - jekyll-paginate
+#  - jekyll-redirect-from
 
 # Exclude the following folders from the build
 exclude: [doc, blog, _posts]
