@@ -1,7 +1,7 @@
 ---
 layout: default
 section_id: legal
-
+noindex: true
 photos:
   - title: Fleur bleue
     author: Miguel Mateo
@@ -39,7 +39,7 @@ photos:
       <h5>Droit &agrave; l'image</h5>
       <p>
       {% for photo in page.photos %}
-        {{photo.title}} - <a href='{{photo.url}}' target='_blank'>{{photo.author}}</a> ({{photo.source}})<br />
+        {{photo.title}} - <a href='{{photo.url}}' target='_blank' rel='noreferrer'>{{photo.author}}</a> ({{photo.source}})<br />
       {% endfor %}
       </p>
       <div class='two spacing'></div>
