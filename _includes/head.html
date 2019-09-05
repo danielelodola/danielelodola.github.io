@@ -10,6 +10,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="language" content="FR">
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     
@@ -80,6 +81,11 @@
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
-  <meta property="og:image" content="{{ '/images/danielelodola.com-screenshot.png' | prepend: site.baseurl }}" />
+  <meta property="og:image" content="{{ '/images/danielelodola.com-screenshot.png' | prepend: site.url }}" />
   <meta property="og:description" content="{{ site.description }}" />
+  <meta name="og:phone_number" content="+33 649 413 298"/>
+  <meta name="og:locality" content="Avignon"/>
+  <meta name="og:region" content="PACA"/>
+  <meta name="og:postal-code" content="84000"/>
+  <meta name="og:country-name" content="France"/>
 </head>
