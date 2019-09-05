@@ -4,6 +4,9 @@
 - name: Services
   path: services
   section_id: services
+  children:
+    - name: Pipedrive
+      path: services/pipedrive
 #- name: Portfolio
 #  path: portfolio.html
 #  section_id: portfolio
