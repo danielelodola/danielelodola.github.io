@@ -54,4 +54,12 @@
 <url>
 <loc>http://localhost:4000/clients/tuyo/</loc>
 </url>
+<url>
+<loc>http://localhost:4000/files/Certificate_Daniele-Lodola_Google-Analytics_1.pdf</loc>
+<lastmod>2019-03-07T22:30:37+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/files/Certificate_Daniele-Lodola_Google-Data-Studio.pdf</loc>
+<lastmod>2019-09-05T23:15:49+02:00</lastmod>
+</url>
 </urlset>
