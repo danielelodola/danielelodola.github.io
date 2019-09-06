@@ -24,4 +24,9 @@ plugins:
 #  - jekyll-redirect-from
 
 # Exclude the following folders from the build
-exclude: [doc, blog, _posts]
+#exclude: [doc, blog, _posts]
+
+exclude:
+  - "doc"
+  - "blog"
+  - "_posts"
