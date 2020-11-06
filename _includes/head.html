@@ -1,26 +1,27 @@
 <head>
   <!-- Google Tag Manager -->
+	<script>dataLayer = [];</script>
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-K6PGCVL');</script>
   <!-- End Google Tag Manager -->
-  
+
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" property="viewport" content="width=device-width, initial-scale=1">
   <meta name="language" property="language" content="FR">
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    
+
   <meta name="description" property="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
   <link rel="stylesheet" href="{{ "/css/foundation.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/fontello.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/font-awesome.css" | prepend: site.baseurl }}">
-  
+
   <link rel="icon" type="image/png" href="{{ '/favicon.png' | prepend: site.baseurl }}" sizes="32x32" />
 
   <!--<script src="{{ "/javascripts/libs.js" | prepend: site.baseurl }}" type="text/javascript"></script>-->
@@ -50,9 +51,9 @@
   <script defer src="{{ "/javascripts/slick.min.js" | prepend: site.baseurl }}" type="text/javascript"></script>
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  
+
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
-  
+
   {% if page.noindex == true %}
   <meta property="robots" content="noindex, nofollow">
   {% endif %}
@@ -79,7 +80,7 @@
       }
   }
   </script>
-  
+
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
