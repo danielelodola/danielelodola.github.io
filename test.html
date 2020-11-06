@@ -23,7 +23,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <input type="text" id="fname" name="fname" value="John"><br>
   <label for="lname">Last name:</label><br>
   <input type="text" id="lname" name="lname" value="Doe"><br><br>
-  <input type="submit" value="Submit" id="form_button">
+  <input type="submit" value="Submit" id="form_button" onclick="dataLayer.push({'lead_id': uuid});">
   </form>
 
   <!-- Google Tag Manager (noscript) -->
