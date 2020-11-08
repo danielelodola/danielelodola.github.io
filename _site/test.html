@@ -1,17 +1,8 @@
 <html>
 <head>
-
+  <meta name="robots" content="noindex, nofollow">
   <script>
     dataLayer = [];
-
-    // Instantiate Lead ID
-    //var uuid = Date.now() + '-' + (((1+Math.random())*0x10000)|0).toString(16).substring(1);
-    //console.log('Lead ID: ' + uuid);
-
-    // Send Lead Id to dataLayer
-    //dataLayer = [{
-    //  'lead_id': uuid
-    //}];
   </script>
 
   <!-- Google Tag Manager -->
@@ -35,6 +26,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <label for="lname">Last name:</label><br>
   <input type="text" id="lname" name="lname" value="Doe"><br><br>
   <input type="submit" value="Submit" id="form_button">
+  </form>
+
+  <form id="contact_form" class="contact_form_class"  action="https://formspree.io/f/mzbkgloo" method="POST">
+    <div class='medium-12 columns'>
+      <input class='required' name='name' placeholder='Your name' type='text'>
+      <input class='required email' name='email' placeholder='Your email' type='text'>
+      <input class='' name='phone' placeholder='Where can I call you? (please include country code)' type='text'>
+      <textarea class='required' name='message' placeholder='How can I help you?'></textarea>
+      <input class='button white' type='submit' value='Send'>
+    </div>
+    <div class='large-12 columns'>
+      <p id='thanks' style='display:none;color:green;font-weight:bold;'>
+        Thanks a bunch for reaching out! I'll contact you shortly.
+      </p>
+    </div>
   </form>
 
   <!-- Google Tag Manager (noscript) -->
