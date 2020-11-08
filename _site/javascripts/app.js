@@ -79,6 +79,7 @@ jQuery(document).foundation();
           success: function(data) {
             $(form).trigger('reset');
             $('#thanks').css('display', 'inline-block');
+            $(dataLayer.push({'event':'form_submitted'}));
           }
         });
         return false;
@@ -798,5 +799,3 @@ jQuery(document).foundation();
     }
   })
 })(Tc.$);
-
-
