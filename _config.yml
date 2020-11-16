@@ -20,11 +20,9 @@ permalink: pretty
 
 plugins:
   - jekyll-sitemap
+  - jekyll-redirect-from
 #  - jekyll-paginate
 #  - jekyll-redirect-from
-
-# Exclude the following folders from the build
-#exclude: [doc, blog, _posts]
 
 exclude:
   - "doc"
