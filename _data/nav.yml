@@ -1,11 +1,11 @@
 - name: Accueil
-  path: 
+  path:
   section_id: home
 - name: Services
   path: services
   section_id: services
   children:
-    - name: Pipedrive
+    - name: Pipedrive Expert Partner
       path: services/pipedrive
 #- name: Portfolio
 #  path: portfolio.html
